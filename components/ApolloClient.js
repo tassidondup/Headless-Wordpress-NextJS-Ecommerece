@@ -9,7 +9,7 @@ const client = new ApolloClient ( {
     link: createHttpLink( {
         uri: clientConfig.graphqlUrl,
         fetch: fetch
-    }),
+    } ),
     cache: new InMemoryCache()
 });
 
