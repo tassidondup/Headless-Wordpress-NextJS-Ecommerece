@@ -43,6 +43,6 @@ app.prepare()
     })
     .catch( ex => {
         console.error(ex.stack);
-        console.log(ex);
+        // console.log(ex);
         process.exit(1);
     });
