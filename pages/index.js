@@ -1,7 +1,8 @@
 import Layout from "../components/Layout";
 import fetch from 'isomorphic-unfetch';
-import clientConfig from '../client-config';
+import clientConfig from "../client-config";
 import Product from "../components/Product";
+import client from "../components/ApolloClient";
 
 const Index = (props) => {
     // console.warn(props);
